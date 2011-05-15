@@ -1,4 +1,4 @@
-h1,h2,h3 {
+h1,h2,h3,h4 {
 	font-weight:normal;
 }
 h1 {
@@ -88,23 +88,23 @@ h6 {
 #nav_region_centre .nav_tier1>li a:hover {
 	color:#cd282f;
 }
-li.first {
+#nav_region_centre li.first {
 	padding-top:10px;
 }
-.nav_tier1 ul li {
+#nav_region_centre .nav_tier1 ul li {
 	padding-left:10px;
 }
-ul.nav_tier1 {
+#nav_region_centre ul.nav_tier1 {
     list-style: none outside none;
     margin: 0;
     padding: 0;
 	display:inline;
 }
-ul.nav_tier1 li {
+#nav_region_centre ul.nav_tier1 li {
     position: relative;
 	margin:0;
 }
-li ul {
+#nav_region_centre li ul {
     display: none;
     left: 0;
     position: absolute;
@@ -119,7 +119,7 @@ li ul {
 	-webkit-border-radius:6px;
 	-o-border-radius:6px;
 }
-ul li a {
+#nav_region_centre ul li a {
     -moz-border-bottom-colors: none;
     -moz-border-image: none;
     -moz-border-left-colors: none;
@@ -131,19 +131,19 @@ ul li a {
 	font-size:18px;
     text-decoration: none;
 }
-* html ul li {
+#nav_region_centre * html ul li {
     float: left;
     height: 1%;
 }
-* html ul li a {
+#nav_region_centre * html ul li a {
     height: 1%;
 }
-ul li a:hover {
+#nav_region_centre ul li a:hover {
 }
-li ul li a {
+#nav_region_centre li ul li a {
     padding: 2px 5px;
 }
-li:hover ul, li.over ul {
+#nav_region_centre li:hover ul, li.over ul {
     display: block;
 }
 #nav_region_centre .nav_tier1>li span {
@@ -198,7 +198,7 @@ ul.pagenumbers {
     border:0px solid #c2c2c2;
     text-align:center;
     vertical-align:middle;
-    padding: 10px;
+    padding: 5px;
 }
 #sponsorsPageTable {
     width: 100%;
@@ -250,3 +250,18 @@ hr {
 .news a:hover {
     color:#cf582d;
 }
+.news .itemTitle {
+    width: 100%;
+    border-top: 1px solid #c2c2c2;
+    border-bottom: 1px solid #c2c2c2;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+a {
+    color:#2f58cd;
+}
+a:hover {
+    color:#cf582d;
+}
+
+

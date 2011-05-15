@@ -54,7 +54,6 @@ urlpatterns = patterns('',
     (r'^music/$', music_submit_song),
     (r'^music/vote/$', music_vote),
 
-
     # news-related stuff
     (r'^', include('csesoc.mainsite.urls')),
 
